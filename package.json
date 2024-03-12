@@ -1,13 +1,13 @@
 {
   "name": "Autonomie",
   "version": "1.0.0",
-  "description": "Autonomie is a highly semantic, responsive, accessible and seo optimized WordPress Theme. It provides HTML5 templates refined with microformats, microformats v2 and microdata (Schema.org). Autonomie supports a lot of OpenWeb plugins and is fully IndieWeb compatible.",
+  "description": "Forked from pfefferle/Autonomie. Autonomie is a highly semantic, responsive, accessible and seo optimized WordPress Theme. It provides HTML5 templates refined with microformats, microformats v2 and microdata (Schema.org). Autonomie supports a lot of OpenWeb plugins and is fully IndieWeb compatible.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pfefferle/Autonomie.git"
+    "url": "https://github.com/davidpeach/Autonomie.git"
   },
   "bugs": {
-    "url": "https://github.com/pfefferle/Autonomie/issues"
+    "url": "https://github.com/davidpeach/Autonomie/issues"
   },
   "keywords": [
     "custom-menu",
@@ -34,11 +34,11 @@
     "wide-blocks"
   ],
   "author": {
-    "name": "Matthias Pfefferle",
-    "url": "https://notiz.blog/"
+    "name": "David Peach",
+    "url": "https://davidpeach.me"
   },
   "license": "MIT",
-  "homepage": "https://github.com/pfefferle/Autonomie",
+  "homepage": "https://github.com/davidpeach/Autonomie",
   "devDependencies": {
     "grunt": "^1.5.2",
     "grunt-contrib-clean": "^2.0.1",
@@ -51,5 +51,8 @@
     "grunt-wp-i18n": "^1.0.3",
     "grunt-wp-readme-to-markdown": "^2.1.0",
     "sass": "^1.51.0"
+  },
+  "scripts": {
+    "dev": "sass ./assets/sass/style.scss ./style.css --watch"
   }
 }
