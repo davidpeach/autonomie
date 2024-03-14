@@ -1,5 +1,6 @@
 .single,
 .page {
+
 	#primary .post,
 	#primary .page {
 		&.has-full-width-featured-image {
@@ -23,7 +24,9 @@
 		-o-background-size: cover;
 		background-size: cover;
 
-		.entry-title, .entry-meta, .entry-format {
+		.entry-title,
+		.entry-meta,
+		.entry-format {
 			color: $white;
 
 			a {
@@ -43,7 +46,7 @@
 			margin-bottom: 50px;
 		}
 
-		.entry-header-wrapper > * {
+		.entry-header-wrapper>* {
 			margin: 0 auto;
 			width: $default-width;
 		}
@@ -66,6 +69,7 @@
 
 .home,
 .archive {
+
 	#primary .post,
 	#primary .page {
 		&:after {
@@ -106,7 +110,9 @@ h4.entry-title {
 	}
 }
 
-.format-quote, .format-aside, .format-status {
+.format-quote,
+.format-aside,
+.format-status {
 	.entry-content {
 		font-size: 1.5em;
 	}
@@ -114,6 +120,7 @@ h4.entry-title {
 
 .type-page,
 .format-standard {
+
 	h1.entry-title,
 	h2.entry-title,
 	h3.entry-title,
@@ -127,7 +134,7 @@ h4.entry-title {
 	color: $dark-gray;
 	color: var(--color-dark-gray);
 	font-style: normal;
-	font-size: 1.2em;
+	font-size: clamp(1rem, 2.5vw, 2rem);
 	margin: 0 auto;
 
 	.wp-block-cover-image,
@@ -144,7 +151,7 @@ h4.entry-title {
 	p.has-background {
 		width: 100%;
 		max-width: 100%;
-		padding: 30px calc( ( 100% - 700px ) / 2 );
+		padding: 30px calc((100% - 700px) / 2);
 		margin: 0;
 	}
 
